@@ -10,7 +10,9 @@
                                    'css-mode
                                    'yaml-mode
                                    'magit
-                                   'gist)
+                                   'gist
+				   'clojure-mode
+				   'swank-clojure)
   "Libraries that should be installed by default.")
 
 (defun starter-kit-elpa-install ()
