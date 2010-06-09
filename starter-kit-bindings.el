@@ -10,7 +10,7 @@
 
 ;; Completion that uses many different methods to find options.
 (global-set-key (kbd "M-/") 'hippie-expand)
-(global-set-key (kbd "S-SPC") 'dabbrev)
+(global-set-key (kbd "S-SPC") 'dabbrev-expand)
 
 ;; Perform general cleanup.
 (global-set-key (kbd "C-c n") 'cleanup-buffer)
