@@ -57,7 +57,7 @@
 (show-paren-mode 1)
 
 ;; Always show line numbers
-(linum-mode t)
+(global-linum-mode 1)
 
 ;; 
 
@@ -148,8 +148,6 @@
           (lambda ()
             (unless (string-match "question" oddmuse-post)
               (setq oddmuse-post (concat "uihnscuskc=1;" oddmuse-post)))))
-
-(color-theme-twilight)
 
 (provide 'starter-kit-misc)
 ;;; starter-kit-misc.el ends here

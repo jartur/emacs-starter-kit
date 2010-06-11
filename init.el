@@ -73,4 +73,5 @@
 (if (file-exists-p user-specific-dir)
   (mapc #'load (directory-files user-specific-dir nil ".*el$")))
 
+(color-theme-twilight)
 ;;; init.el ends here
