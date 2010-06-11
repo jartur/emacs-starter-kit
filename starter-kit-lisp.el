@@ -54,7 +54,9 @@
   (add-hook
    (intern (concat (symbol-name x) "-mode-hook")) 'turn-on-paredit)
   (add-hook
-   (intern (concat (symbol-name x) "-mode-hook")) 'run-coding-hook))
+   (intern (concat (symbol-name x) "-mode-hook")) 'run-coding-hook)
+  (add-hook
+   (intern (concat (symbol-name x) "-mode-hook")) 'turn-on-highlight-parentheses))
 
 (eval-after-load 'clojure-mode
   '(font-lock-add-keywords

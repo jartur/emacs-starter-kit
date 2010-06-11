@@ -11,8 +11,9 @@
                                    'yaml-mode
                                    'magit
                                    'gist
-				   'clojure-mode
-				   'swank-clojure)
+                                   'clojure-mode
+                                   'swank-clojure
+                                   'highlight-parentheses)
   "Libraries that should be installed by default.")
 
 (defun starter-kit-elpa-install ()

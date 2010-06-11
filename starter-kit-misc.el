@@ -56,6 +56,11 @@
 ;; Highlight matching parentheses when the point is on them.
 (show-paren-mode 1)
 
+;; Always show line numbers
+(linum-mode t)
+
+;; 
+
 ;; ido-mode is like magic pixie dust!
 (when (> emacs-major-version 21)
   (ido-mode t)
@@ -143,6 +148,8 @@
           (lambda ()
             (unless (string-match "question" oddmuse-post)
               (setq oddmuse-post (concat "uihnscuskc=1;" oddmuse-post)))))
+
+(color-theme-twilight)
 
 (provide 'starter-kit-misc)
 ;;; starter-kit-misc.el ends here
